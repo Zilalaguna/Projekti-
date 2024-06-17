@@ -148,9 +148,13 @@ p {
 }
 
 #tabula tr:nth-child(1) {
-  background-color: #d91717;
+  background-color: #d9172a;
 }
 
 #tabula tr:nth-child(2) {
-  background-color: #d91717;
+  background-color: #5b17d9;
 }
+
+#tabula tr:nth-child(3) {
+  background-color: #d91717;
+  }
