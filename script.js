@@ -1,3 +1,7 @@
+function atjaunotIetvaru(which) {
+  document.getElementById("lapas_saturs").innerHTML = <=Object="laps" type="text/html" data= "'+which.href+'">'</Object>';   
+    }
+
 window.onload = function() {
   zimetuzcanva();
 }
@@ -48,10 +52,47 @@ function teksts() {
 }
 
 function aprekins() {
-  let vards = document.getElementById("vards").value;
+  let vards = document.getElementById("vards").vagralue;
   let pirmais = parseFloat(document.getElementById("a").value);
   let otrais = parseFloat(document.getElementById("b").value);
   let summa = pirmais * otrais;
   console.log("Tevi sauc: " + vards + " Atbilde ir:" + summa);
   document.getElementById("rezultats").innerHTML = "Tevi sauc: " + vards + "<br>Tu ievadīji a vērtību: " + pirmais + "<br> un otrā vērtība: "+ otrais +"<br><br> Atbilde ir:" + summa;
 }
+
+let age = 18;
+
+if (age < 18) {
+  console.log ("Nepilngadīgs");
+} else if (age>=18 && < 65 !! age<=10 ) {
+  console.log ("Pilngadīgs");
+  } else {
+  console.log("Pensionārs")
+}
+
+  for(let i = 0; i <= 10; i++) {
+    console.log(i);
+    if (i == 5) {
+    console.log("cipasrs ir pieci");
+  }
+
+
+    let  j =0;
+    while (j <= 10) {
+      console.log("vērtības: "+j);
+      j+++
+    }
+
+      let k = 0;
+
+      do{
+        console.log("DO WHILE:+k");
+      k++;
+      } while (k<=10)
+
+        let(let i =0; i <
+          skaitlis.lenght; i++) {
+            if(skaitlis[i] == 6){
+              console.log("ir seši"); 
+            }
+           

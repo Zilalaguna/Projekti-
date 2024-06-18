@@ -158,3 +158,13 @@ p {
 #tabula tr:nth-child(3) {
   background-color: #d91717;
   }
+
+#lapas {
+  width: 100%;
+  height: 100%;
+}
+
+#lapas_saturs {
+  width: 100%;
+  height: 100%;
+}
